@@ -1,0 +1,98 @@
+let myName = "dogcheeks";
+const myAge = 8; // constant, cant be changed
+let myPhone = 12345678;
+myPhone = 87654321; // able to be modified
+let myArr = [1, 2, 3, 4, 5];
+let isHuman = true;
+
+console.log(myName);
+console.log(myAge);
+console.log(myPhone);
+console.log(myArr);
+console.log(isHuman);
+
+// Math
+let a = (5 + 7) * 2;
+let b = (5 - 7) / 3;
+let c = 5 ** 7; // power
+let d = 123 % 45; // remainder
+console.log(a, b, c, d);
+
+let e = Math.random();
+let f = Math.round();
+let g = Math.cos(Math.PI);
+let h = Math.E**2;
+console.log(e, f, g, h);
+
+// Strings
+let firstName = "Andrew";
+let lastName = "Tate";
+let fullName = firstName + " " + lastName;
+let nameLength = fullName.length;
+console.log(fullName + ", Length: " + nameLength);
+
+let language = "Javascript";
+console.log(language[0]);
+console.log(language.substring(2, 5));
+console.log(language.toUpperCase());
+
+// Conditionals
+let age = 20;
+
+if (age <= 12) {
+    console.log("Hello drake!");
+}
+
+else if (age <= 18) {
+    console.log("Hello Dovid Gaggins!");
+}
+
+else {
+    console.log("Hello Toritopsis Dhornii Teo En Ming Zhang En Ming Time Traveller!");
+}
+
+// For loop
+let fruits = ["Orange", "Apple", "Pear", "Watermelon"];
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+for (let fruit of fruits) {
+    console.log(fruit);
+}
+
+// While loop
+let counter = 10;
+while (counter > 0) {
+    console.log(counter);
+    counter--;
+}
+
+// Arrays
+let nums = [123, 456, 789];
+let schools = ["GymLeagueJC", "Super Monkey", "Jordan Tan", "BloonsJC"];
+
+console.log(schools.length);
+console.log(schools)
+schools.push("Teo En Ming")
+console.log(schools)
+schools.pop()
+console.log(schools);
+
+// Object (dictionaries in python)
+let person = {
+    name: "Toritopsis Dhornii Teo En Ming Zhang En Ming Time Traveller",
+    age: 17,
+    isStudent: true,
+}
+
+console.log(person["name"]);
+console.log(person.name)
+
+// Functions
+function cube(x) {
+    return x ** 3;
+}
+
+console.log(cube(123));
